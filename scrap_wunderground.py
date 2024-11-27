@@ -1,7 +1,7 @@
 # Returns a table with the columns 'Time', 'Precip. Rate' y 'Precip. Accum.'
-# after extracting them from the daily data table of a given wunderground.com's weather station
+# after extracting them from the daily data table of a given wunderground.com's weather station url
 #
-# precipitaciones_hoy = extraer_wunderground("https://www.wunderground.com/dashboard/pws/ICHIVA39/table/2024-10-29/2024-10-29/daily")
+# today = scrap_wunderground("https://www.wunderground.com/dashboard/pws/ICHIVA39/table/2024-10-29/2024-10-29/daily")
 
 import requests
 from bs4 import BeautifulSoup
