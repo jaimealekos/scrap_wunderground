@@ -1,4 +1,4 @@
-# Returns a table with the columns 'Time', 'Precip. Rate' y 'Precip. Accum.'
+# Returns a table with the columns 'Time', 'Precip. Rate' and 'Precip. Accum.'
 # after extracting them from the daily data table of a given wunderground.com's weather station url
 #
 # today = scrap_wunderground("https://www.wunderground.com/dashboard/pws/ICHIVA39/table/2024-10-29/2024-10-29/daily")
